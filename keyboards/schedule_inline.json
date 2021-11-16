@@ -1,0 +1,30 @@
+{
+  "inline": true,
+  "buttons": [
+    [
+
+      {
+        "action": {
+          "type": "text",
+          "label": "Предыдущая"
+        },
+        "color": "primary"
+      },
+      {
+        "action": {
+          "type": "text",
+          "label": "Следующая"
+        },
+        "color": "primary"
+      }],
+    [
+      {
+        "action": {
+          "type": "open_link",
+          "link": "http://www.asu.ru/",
+          "label": "Открыть через браузер"
+        }
+      }
+    ]
+  ]
+}

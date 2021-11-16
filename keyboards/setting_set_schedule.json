@@ -1,0 +1,40 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+        "action": {
+          "type": "text",
+          "label": "Уведомление об изменении в расписании"
+        },
+        "color": "negative"
+      }],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Регистрация"
+        },
+        "color": "primary"
+      }],
+
+    [{
+        "action": {
+          "type": "text",
+          "label": "Сообщить об ошибке"
+        },
+        "color": "primary"
+      }],
+
+
+
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Главное меню"
+        },
+        "color": "negative"
+      }
+    ]
+  ]
+}

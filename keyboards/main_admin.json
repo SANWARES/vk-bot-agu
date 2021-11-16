@@ -1,0 +1,65 @@
+{
+  "one_time": false,
+  "buttons": [
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Расписание группы"
+        },
+        "color": "primary"
+      }],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Расписание преподавателя"
+        },
+        "color": "primary"
+      }],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Расписание аудиторий"
+        },
+        "color": "primary"
+      }],
+      [{
+        "action": {
+          "type": "text",
+          "label": "Свободные аудитории"
+        },
+        "color": "primary"
+      }
+    ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Заметки"
+        },
+        "color": "primary"
+      }
+    ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Панель управления"
+        },
+        "color": "primary"
+      }
+    ],
+
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Настройки"
+        },
+        "color": "negative"
+      }
+    ]
+  ]
+}

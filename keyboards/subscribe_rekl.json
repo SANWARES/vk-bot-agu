@@ -1,0 +1,17 @@
+{
+  "one_time": false,
+  "buttons": [
+    [
+      {
+        "action": {
+          "type": "intent_subscribe",
+          "label": "Подписаться",
+          "peer_id": 549944532,
+          "intent": "confirmed_notification",
+          "subscribe_id": 1
+        }
+      }
+    ]
+  ]
+}
+

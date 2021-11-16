@@ -1,0 +1,40 @@
+{
+  "one_time": false,
+  "buttons": [
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Абсолютно всем факультетам"
+        },
+        "color": "primary"
+      }],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Всем группам факультета"
+        },
+        "color": "primary"
+      }],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Отдельным группам"
+        },
+        "color": "primary"
+      }],
+
+
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Главное меню"
+        },
+        "color": "negative"
+      }
+    ]
+  ]
+}

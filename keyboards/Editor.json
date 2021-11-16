@@ -1,0 +1,30 @@
+{
+  "one_time": false,
+  "buttons": [
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Статистика"
+        },
+        "color": "primary"
+      }],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Рассылка сообщений"
+        },
+        "color": "primary"
+      }],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Главное меню"
+        },
+        "color": "negative"
+      }
+    ]
+  ]
+}

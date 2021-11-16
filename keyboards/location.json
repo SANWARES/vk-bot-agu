@@ -1,0 +1,74 @@
+{
+  "one_time": true,
+  "buttons": [
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Д"
+        },
+        "color": "primary"
+      },
+      {
+        "action": {
+          "type": "text",
+          "label": "К"
+        },
+        "color": "primary"
+      }
+    ,
+      {
+        "action": {
+          "type": "text",
+          "label": "Л"
+        },
+        "color": "primary"
+      }],
+      [{
+        "action": {
+          "type": "text",
+          "label": "М"
+        },
+        "color": "primary"
+      },
+      {
+        "action": {
+          "type": "text",
+          "label": "Н"
+        },
+        "color": "primary"
+      },
+      {
+        "action": {
+          "type": "text",
+          "label": "С"
+        },
+        "color": "primary"
+      }
+    ],
+    [{
+        "action": {
+          "type": "text",
+          "label": "А"
+        },
+        "color": "primary"
+      }
+    ],
+    [
+      {
+        "action": {
+          "type": "location"
+        }
+      }
+    ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Главное меню"
+        },
+        "color": "negative"
+      }
+    ]
+  ]
+}

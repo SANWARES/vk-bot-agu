@@ -1,0 +1,48 @@
+{
+  "one_time": false,
+  "buttons": [
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "<-"
+        },
+        "color": "primary"
+      },
+      {
+        "action": {
+          "type": "text",
+          "label": "Текущая"
+        },
+        "color": "primary"
+      }
+    ,
+      {
+        "action": {
+          "type": "text",
+          "label": "->"
+        },
+        "color": "primary"
+      }],
+
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Другая дата"
+        },
+        "color": "primary"
+      }
+    ],
+
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Главное меню"
+        },
+        "color": "negative"
+      }
+    ]
+  ]
+}

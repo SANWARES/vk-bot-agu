@@ -1,0 +1,56 @@
+{
+  "one_time": false,
+  "buttons": [
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Расписание преподавателя"
+        },
+        "color": "primary"
+      }],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Расписание групп"
+        },
+        "color": "primary"
+      }],
+      [{
+        "action": {
+          "type": "text",
+          "label": "Свободные аудитории"
+        },
+        "color": "primary"
+      }
+    ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Заметки"
+        },
+        "color": "primary"
+      }
+    ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Рассылка сообщений"
+        },
+        "color": "primary"
+      }
+    ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Настройки"
+        },
+        "color": "negative"
+      }
+    ]
+  ]
+}

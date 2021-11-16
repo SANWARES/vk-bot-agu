@@ -1,0 +1,79 @@
+{
+  "one_time": false,
+  "buttons": [
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "1. 08:00 - 09:30"
+        },
+        "color": "primary"
+      },
+      {
+        "action": {
+          "type": "text",
+          "label": "2. 09:40 - 11:10"
+        },
+        "color": "primary"
+      }],
+      [{
+        "action": {
+          "type": "text",
+          "label": "3. 11:20 - 12:50"
+        },
+        "color": "primary"
+      },
+        {
+        "action": {
+          "type": "text",
+          "label": "4. 13:20 - 14:50"
+        },
+        "color": "primary"
+      }
+      ],
+
+    [{
+        "action": {
+          "type": "text",
+          "label": "5. 15:00 - 16:30"
+        },
+        "color": "primary"
+      },
+        {
+        "action": {
+          "type": "text",
+          "label": "6. 16:40 - 18:10"
+        },
+        "color": "primary"
+      }
+      ],
+
+    [{
+        "action": {
+          "type": "text",
+          "label": "7. 18:20 - 19:50"
+        },
+        "color": "primary"
+      },
+        {
+        "action": {
+          "type": "text",
+          "label": "8. 20:00 - 21:30"
+        },
+        "color": "primary"
+      }
+      ],
+
+
+
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Главное меню"
+        },
+        "color": "negative"
+      }
+    ]
+  ]
+}

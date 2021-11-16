@@ -1,0 +1,20 @@
+{
+  'type': 'message_reply',
+  'object': {
+    'date': 1612482899,
+    'from_id': 549944532,
+    'id': 36132,
+    'out': 1,
+    'peer_id': 549944532,
+    'text': 'k',
+    'conversation_message_id': 32949,
+    'fwd_messages': [],
+    'important': False,
+    'random_id': 0,
+    'attachments': [],
+    'admin_author_id': 549944532,
+    'is_hidden': False
+  },
+  'group_id': 183787572,
+  'event_id': 'f39c87f49479580e00cd8325ea584c8bcc082313'
+}
