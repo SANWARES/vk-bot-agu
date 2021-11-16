@@ -3,13 +3,10 @@ import threading
 from vk_api.bot_longpoll import VkBotLongPoll
 import vk_api
 import geo
-import time
-import re
 from image_push import *
 from datetime import timedelta, datetime
 from BarnaulTime import Time
 from schedule_group import *
-import json
 from DataUsers import facult, ParseNumberGroup, facult_astats
 from config import *
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
