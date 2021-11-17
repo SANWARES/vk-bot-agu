@@ -13,6 +13,8 @@ from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 from VK_API_Method import VkKeyboard_new, VkKeyboardButton_new, VkKeyboardColor_new
 from utils import find_ref_group_by_name, find_prepod_by_fio
 
+#test comment from @iivkis
+
 mysql_dir = {}
 keyboardDir = {}
 connectError = []
