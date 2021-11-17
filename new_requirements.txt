@@ -1,0 +1,4 @@
+vk_api
+selenium
+Pillow
+mysql-connector
