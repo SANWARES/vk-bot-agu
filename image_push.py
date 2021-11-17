@@ -160,6 +160,12 @@ class Push:
             self.attach = f'photo{c["owner_id"]}_{c["id"]}'
 
         except Exception as e:
+            try:
+                driver.find_element_by_class_name("msg_simple")
+                self.output_message = 'Расписания на данную неделю нет!'
+                return
+            except:
+                pass
             if re.search("available via screen", e.__str__()) is not None:
                 self.output_message = 'Расписания на данную неделю нет!'
 
