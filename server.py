@@ -15,6 +15,7 @@ from utils import find_ref_group_by_name, find_prepod_by_fio
 
 #test comment from @iivkis
 #hello world! (c) bettapy
+# PEP8 E265: Block comments should have a space after #. (c) Xomypok
 
 mysql_dir = {}
 keyboardDir = {}
