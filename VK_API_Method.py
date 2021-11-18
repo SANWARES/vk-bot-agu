@@ -5,7 +5,7 @@
 :copyright: (c) 2019 python273
 """
 
-# Бесполезный файл
+# Не бесполезный файл
 
 from enum import Enum
 
