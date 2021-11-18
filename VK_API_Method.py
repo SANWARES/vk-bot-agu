@@ -5,6 +5,8 @@
 :copyright: (c) 2019 python273
 """
 
+# Бесполезный файл
+
 from enum import Enum
 
 import six
