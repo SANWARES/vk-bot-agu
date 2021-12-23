@@ -22,8 +22,7 @@ class PhantomJS:
         global driver1, driver2, driver3, driver4, driver5, driver6, driver7, driver8, driver9, driver10
         __DRIVER = "/Users/alexander/Desktop/phantomjs-2.1.1-macosx/bin/phantomjs"
 
-
-        __Chrome = "/Users/alexander/PycharmProjects/vk-bot-2022/chromedriver"
+        __Chrome = "/Users/alexander/PycharmProjects/vk-bot-testing/chromedriver_96"
 
         chrome_options = webdriver.ChromeOptions()
         chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
@@ -32,8 +31,8 @@ class PhantomJS:
         chrome_options.add_argument("--no-sandbox")
 
         driver1 = webdriver.Chrome(executable_path=__Chrome, chrome_options=chrome_options)
-        # driver2 = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
-        # driver3 = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
+        # driver2 = webdriver.Chrome(executable_path=__Chrome, chrome_options=chrome_options)
+        # driver3 = webdriver.Chrome(executable_path=__Chrome, chrome_options=chrome_options)
         # driver4 = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
         # driver5 = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
         # driver6 = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
@@ -79,9 +78,21 @@ class Push:
         # elif self.free_req == "9":
         #     driver = driver9
         else:
-            driver = driver4
+            driver = driver3
         driver.set_page_load_timeout(10)
         try:
+
+            #
+            # # https://still-mesa-50165.herokuapp.com/screenshot?link=lecturers/21/7/821/
+            # schedule_re = re.search(r'http://www.asu.ru/timetable/(.*)', url)
+            # print(schedule_re[1])
+            # response = requests.get('https://still-mesa-50165.herokuapp.com/screenshot?link=%s' % schedule_re[1])
+            # if response.status_code == 200:
+            #     attachment = response.json()["attachment"]
+            #     print(attachment)
+            #     return attachment
+
+
             print(url)
             driver.get(url)
         except:
@@ -109,6 +120,9 @@ class Push:
                             "random_id": 0})
             try:
                 print("Включено время ожидание 20 секунд")
+
+
+
                 print(url)
                 driver.set_page_load_timeout(10)
                 driver.get(url)
@@ -280,7 +294,7 @@ class Push:
             elif self.output_message == "":
                 if mtype == 1:
                     self.output_message = "Расписание занятий %s группы с %s по %s" % (
-                    Group_1_back()[division][var[1]], d_nac, d_kon)
+                        Group_1_back()[division][var[1]], d_nac, d_kon)
                 else:
                     self.output_message = teacher_info + "\n\nРасписание занятий с %s по %s" % (d_nac, d_kon)
 
