@@ -82,16 +82,17 @@ class Push:
         driver.set_page_load_timeout(10)
         try:
 
-            #
-            # # https://still-mesa-50165.herokuapp.com/screenshot?link=lecturers/21/7/821/
-            # schedule_re = re.search(r'http://www.asu.ru/timetable/(.*)', url)
-            # print(schedule_re[1])
-            # response = requests.get('https://still-mesa-50165.herokuapp.com/screenshot?link=%s' % schedule_re[1])
-            # if response.status_code == 200:
-            #     attachment = response.json()["attachment"]
-            #     print(attachment)
-            #     return attachment
-
+            # Получение расписания через веб без драйверов
+            # https://still-mesa-50165.herokuapp.com/screenshot?link=lecturers/21/7/821/
+            schedule_re = re.search(r'http://www.asu.ru/timetable/(.*)', url)
+            new_reg = re.sub('&', '*', schedule_re[1])
+            print(new_reg)
+            response = requests.get('https://still-mesa-50165.herokuapp.com/screenshot?link=%s' % new_reg)
+            if response.status_code == 200:
+                attachment = response.json()["attachment"]
+                print(attachment)
+                self.attach = attachment
+                return
 
 
             print(url)
